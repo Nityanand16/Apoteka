@@ -32,7 +32,7 @@ namespace Apoteka
             IWebElement webElement = driver.FindElement(By.ClassName("coi-banner__accept"));
             webElement.Click();
             
-            //Assertation
+            //Assertions
             HomePage homePage = new HomePage(driver);
             var getHomePage = homePage.IsHomePage();
             Assert.IsTrue(getHomePage);
@@ -64,7 +64,7 @@ namespace Apoteka
 
             //Click on Se Allergi Medicin
             ProfilePage profilePage = new ProfilePage(driver);
-            profilePage.MouseHoverHåndkøb();
+            profilePage.MouseHoverHÃ¥ndkÃ¸b();
             profilePage.SeAllergiMedicin();
 
             //Click on Alnok Medicine
